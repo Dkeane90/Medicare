@@ -1,6 +1,6 @@
 <template>
   <div class="container-1">
-    <div class="logo-container">
+    <div>
       <router-link to="/">
         <img src="../assets/m 1.png" alt="Medicare logo"
       /></router-link>
@@ -20,12 +20,9 @@ import Button from "./Button.vue";
 <style lang="postcss" scoped>
 .container-1 {
   @apply px-10 py-4 text-blue-700 font-semibold text-xl border-b-4
-  border-blue-700 flex w-screen justify-between content-center;
+  border-blue-700 flex w-screen justify-between;
 }
 
-.logo-container {
-  @apply ml-0 justify-self-start;
-}
 .Call {
   @apply bg-red-700 rounded text-white p-4;
 }
